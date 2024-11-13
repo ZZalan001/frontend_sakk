@@ -31,6 +31,7 @@ export const ChessList = () => {
                                 <img src={chess.image_url ? chess.image_url : "https://via.placeholder.com/400x800"} alt={chess.name} className="img fluid" style={{width:"200"}}></img></Link><br/>
                                 
                             </div>
+                            <Link to={"/chess-mod/" + chess.id}><i className="bi bi-pencil-square"></i></Link>
                         </div>
                     ))}
                 </div>

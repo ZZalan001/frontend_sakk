@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink, Link, useParams} from "react-router-dom";
+import { Link, useParams} from "react-router-dom";
 
 export const ChessSingle = () => {
     const params = useParams();
